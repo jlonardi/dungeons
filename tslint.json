@@ -1,0 +1,20 @@
+{
+  "enable": true,
+  "extends": ["tslint:latest"],
+  "rules": {
+    // override tslint-react rules here
+    "jsx-no-lambda": false,
+    "jsx-wrap-multiline": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "max-line-length": false,
+    "no-implicit-dependencies": false,
+    "devDependencies": false,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "variable-name": false,
+    "ordered-imports": false,
+    "jsx-no-multiline-js": false,
+    "ban-types": [false, "Function"],
+    "no-object-literal-type-assertion": false
+  }
+}
